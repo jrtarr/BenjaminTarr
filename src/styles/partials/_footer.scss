@@ -4,16 +4,9 @@
     width: 100%;
 }
 #foot>a{
+    display: block;
     text-decoration: none;
-    margin: 0 15px;
-}
-.foot-icon{
-    font-size: 2.5em;
-    transition: font-size 1s;
-}
-.foot-icon:hover{
-    font-size: 3em;
-    transition: font-size 1s;
+    margin: auto;
 }
 .foot-svg{
     width: 65px;
@@ -25,4 +18,27 @@
 }
 #foot>a>img{
     width: inherit;
+}
+
+
+@media only screen and (max-width : 812px) {
+    #foot{
+        width: 100%;
+    }
+    #foot>a{
+        display: block;
+        text-decoration: none;
+        margin: auto;
+    }
+    .foot-svg{
+        width: 65px;
+        transition: width 1s;
+    }
+    .foot-svg:hover{
+        width: 75px;
+        transition: width 1s;
+    }
+    #foot>a>img{
+        width: inherit;
+    }
 }

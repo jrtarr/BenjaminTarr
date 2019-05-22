@@ -20,6 +20,7 @@ const x = setInterval(()=>{
     if (endTime.diff(now)<0){
         clearInterval(x)
         counterElement.textContent = 'Today\'s the day.'
+        window.location.replace('./home.html') 
     }
 },1000)
 
