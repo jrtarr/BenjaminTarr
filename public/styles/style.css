@@ -1,0 +1,83 @@
+#foot {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#foot > a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.foot-icon {
+  font-size: 2.5em;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+.foot-icon:hover {
+  font-size: 3em;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+.foot-svg {
+  width: 65px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+.foot-svg:hover {
+  width: 75px;
+  -webkit-transition: width 1s;
+  transition: width 1s;
+}
+
+#foot > a > img {
+  width: inherit;
+}
+
+* {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+#text {
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-size: 1.3em;
+}
+
+#counter {
+  font-size: 2.3em;
+}
+
+#title-img {
+  width: 200px;
+  margin: 10px 0;
+}
+/*# sourceMappingURL=style.css.map */

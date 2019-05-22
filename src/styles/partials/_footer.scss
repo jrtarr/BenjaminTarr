@@ -1,0 +1,28 @@
+#foot{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#foot>a{
+    text-decoration: none;
+    margin: 0 15px;
+}
+.foot-icon{
+    font-size: 2.5em;
+    transition: font-size 1s;
+}
+.foot-icon:hover{
+    font-size: 3em;
+    transition: font-size 1s;
+}
+.foot-svg{
+    width: 65px;
+    transition: width 1s;
+}
+.foot-svg:hover{
+    width: 75px;
+    transition: width 1s;
+}
+#foot>a>img{
+    width: inherit;
+}
