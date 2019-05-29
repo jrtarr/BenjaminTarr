@@ -1,12 +1,16 @@
 #foot{
-    position: absolute;
-    bottom: 0;
+    height: auto;
     width: 100%;
 }
-#foot>a{
+#foot>a,#foot>p{
     display: block;
     text-decoration: none;
     margin: auto;
+}
+#foot>p{
+    text-align: center;
+    font-size: .6em;
+    opacity: .5;
 }
 .foot-svg{
     width: 65px;
@@ -22,9 +26,6 @@
 
 
 @media only screen and (max-width : 812px) {
-    #foot{
-        width: 100%;
-    }
     #foot>a{
         display: block;
         text-decoration: none;

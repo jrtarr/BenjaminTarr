@@ -2,10 +2,11 @@
 
 *{
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 html,body{
     background: black url('../img/bg_blur.jpg') no-repeat;
+    background-color: grey;
     background-size: cover;
     background-position: center center;
     height: 100%;
@@ -18,6 +19,7 @@ html,body{
     justify-content: center;
     text-align: center;
     height: 100%;
+    margin-bottom: -50px;
 }
 #text{
     padding-bottom: 100px;
@@ -38,6 +40,9 @@ html,body{
     transform: scale(1);
     transition: transform 1s;
 }
+h1{
+    text-shadow: 2px 2px 5px  rgba(0,0,0,0.75);
+}
 .platform-svg:hover{
     transform: scale(1.2);
     transition: transform 1s;
@@ -45,6 +50,7 @@ html,body{
 #album-img{
     width: 400px;
     margin: 10px 0;
+    box-shadow: 10px 10px 10px -9px rgba(0,0,0,0.75);
 }
 @media only screen and (max-width : 812px) {
     html,body{
@@ -62,9 +68,12 @@ html,body{
     }
     #album-img{
         width: 80%;
-        padding: 0 10px;
+        margin: 0 10px;
     }
     #text{
         padding: 0;
+    }
+    h1{
+        font-size: 18pt;
     }
 }
